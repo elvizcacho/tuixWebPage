@@ -1,0 +1,49 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.super{
+	transition:opacity 1s;
+	-moz-transition:opacity 1s;
+	-o-transition:opacity 1s;
+	-webkit-transition:opacity 1s;
+}
+
+.logo-nav{
+  position:relative;
+  top:-30%;
+}
+
+.logo-home{
+	position:relative;
+	left:10%;
+	width:50%;
+	top: 80px; 
+	opacity: 1;
+}
+
+.logom2-home{
+	position:relative;
+	right:-1200;
+	width:30%;
+	
+}
+
+.nav-color{
+   opacity:0.9;
+   background: linear-gradient(lleft, #C73149, #C83931);
+   background: -moz-linear-gradient(left, #C73149, #C83931);
+   background: -ms-linear-gradient(left, #C73149, #C83931);
+   background: -webkit-linear-gradient(left, #C73149, #C83931);
+   background: -o-linear-gradient(left, #C73149, #C83931);
+   background: linear-gradient(left, #C73149, #C83931);
+}
+
+
+.nav-text-color a{
+	color:#FFF !important;
+}
+
+.h1-text-color{
+	color:#FFF;
+}
