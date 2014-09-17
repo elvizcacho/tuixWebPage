@@ -1,9 +1,63 @@
-<div id="super" class="super" style="opacity: 1;">
- 	<%= menu_navegacion2({:index => "Home",:quienes_somos => "¿Quienes somos?",:aplicaciones_web => "Aplicaciones Web", :aplicaciones_moviles => "Aplicaciones Moviles", :diseno_grafico => "Diseño Grafico", :contactenos => "Contacenos"}) %>
-
-	<img id="logo" src="/img/img1_animation.png" class="img-responsive logo-home" style="top: 80px; opacity: 1;">
-	<img id="logom2" src="/img/img2_animation.png" class="img-responsive logom2-home" style="top: -270px; right: -704.743777452416px; transform: rotate(-329.062957540264deg); -webkit-transform: rotate(-329.062957540264deg);">
+<%= menu_navegacion2({:index => "Home",:quienes_somos => "¿Quienes somos?",:aplicaciones_web => "Aplicaciones Web", :aplicaciones_moviles => "Aplicaciones Moviles", :diseno_grafico => "Diseño Grafico", :contactenos => "Contacenos"}) %>
+<br/>
+<br/>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-md-offset-1">
+			<%= image_tag("logo_tuix.png",:class => "img-responsive") %>
+		</div>
+	</div><br/><br/><br/><br/>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="thumbnail no-border">
+				<%= image_tag("cloud.png",:class => "img-responsive",:size => "300x300") %>
+				<div class="caption">
+					<h3>Aplicaciones Web</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail no-border">
+				<%= image_tag("mobil.png", :class => "img-responsive", :size => "300x300") %>
+				<div class="caption">
+					<h3>Aplicaciones Moviles</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail no-border">
+				<%= image_tag("pencil.png", :class => "img-responsive", :size => "300x300") %>
+				<div class="caption">
+					<h3>Diseño Grafico</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h1>Nuestras tecnologias</h1>
+</div>
+	<%= carrousel_tag(:images => ["ruby-on-rails.jpg","php.jpg","python.jpg","jquery.jpg","adobe.jpg","bootstrap.jpg"],:titles => [],:texts => []) %>
+<div class="container">
+	<h1>Contactanos</h1>
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4">
+			<%= form_tag("/home/enviar") do %>
+			<%= text_field_tag("nombre","",:placeholder => "Tu nombre aquí",:class => "form-control") %>
+			<%= text_field_tag("nombre","",:placeholder => "Asunto",:class => "form-control") %>
+			<%= text_area_tag("nombre","",:placeholder => "Escribenos sobre la app que deseas o sobre tu interes en hacer parte de nuestra compañia",:class => "form-control",:size => "20x10") %>
+			<%= submit_tag("Enviar",:class => "form-control btn btn-danger") %>
+			<% end %>
+		</div>
+	</div><br/><br/><br/><br/>
+<div class="row">
+		<div class="text-center">
+			<%= link_to(image_tag("facebook.png",:size => "250x250"),"https://www.facebook.com/tuixcolombia") %>
+			<%= link_to(image_tag("twitter.png",:size => "250x250"),"https://twitter.com/tuixcolombia") %>
+			<%= link_to(image_tag("googleplus.png",:size => "250x250"),"https://plus.google.com/+JuanVizcainoRulz") %>
+		</div>
+	</div>
 </div>
 <!-- Animation scripts -->
 <script src="/js/tuix.js" type="text/javascript"></script>
-<script src="/js/anima-logo.js" type="text/javascript"></script>
