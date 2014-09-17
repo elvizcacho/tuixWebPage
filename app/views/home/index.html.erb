@@ -1,43 +1,43 @@
 <%= menu_navegacion2({:index => "Home",:quienes_somos => "¿Quienes somos?",:aplicaciones_web => "Aplicaciones Web", :aplicaciones_moviles => "Aplicaciones Moviles", :diseno_grafico => "Diseño Grafico", :contactenos => "Contacenos"}) %>
 <br/>
 <br/>
-<div class="container">
+
 	<div class="row">
-		<div class="col-md-12 col-md-offset-1">
+		<div class="col-md-12 col-md-offset-2">
 			<%= image_tag("logo_tuix.png",:class => "img-responsive") %>
 		</div>
 	</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-	<div class="row">
-		<div class="col-md-4">
+	<div class="row section2"><br/><br/><br/><br/><br/><br/>
+		<div class="col-md-3 col-md-offset-1">
 			<div class="thumbnail no-border">
 				<%= image_tag("cloud.png",:class => "img-responsive",:size => "300x300") %>
 				<div class="caption">
-					<h3>Aplicaciones Web</h3>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<h3 class="white-text-color">Aplicaciones Web</h3>
+					<p class="text-justify gray-text-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-3">
 			<div class="thumbnail no-border">
 				<%= image_tag("mobil.png", :class => "img-responsive", :size => "300x300") %>
 				<div class="caption">
-					<h3>Aplicaciones Moviles</h3>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<h3 class="white-text-color">Aplicaciones Moviles</h3>
+					<p class="text-justify gray-text-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-3">
 			<div class="thumbnail no-border">
 				<%= image_tag("pencil.png", :class => "img-responsive", :size => "300x300") %>
 				<div class="caption">
-					<h3>Diseño Grafico</h3>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<h3 class="white-text-color">Diseño Grafico</h3>
+					<p class="text-justify gray-text-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 		</div>
 	</div><br/><br/><br/><br/>
 	<h1>Nuestras tecnologias</h1>
-</div>
+
 	<%= carrousel_tag(:images => ["ruby-on-rails.jpg","php.jpg","python.jpg","jquery.jpg","adobe.jpg","bootstrap.jpg"],:titles => [],:texts => []) %>
 <div class="container">
 	<h1>Contactanos</h1>
