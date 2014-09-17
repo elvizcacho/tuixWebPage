@@ -29,6 +29,11 @@ class HomeController < ApplicationController
   def contactenos
   	respond_to do |format|
   		format.html {redirect_to("/home/index")}
-  	end
+    end
   end
+
+  def enviar
+    redirect_to("/home/index")
+  end
+  
 end

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'home/aplicaciones_moviles'
   get 'home/diseno_grafico'
   get 'home/contactenos'
+  post 'home/enviar'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

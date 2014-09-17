@@ -6,7 +6,7 @@
 		<div class="col-md-12 col-md-offset-1">
 			<%= image_tag("logo_tuix.png",:class => "img-responsive") %>
 		</div>
-	</div><br/><br/><br/><br/>
+	</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	<div class="row">
 		<div class="col-md-4">
 			<div class="thumbnail no-border">
@@ -35,7 +35,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div><br/><br/><br/><br/>
 	<h1>Nuestras tecnologias</h1>
 </div>
 	<%= carrousel_tag(:images => ["ruby-on-rails.jpg","php.jpg","python.jpg","jquery.jpg","adobe.jpg","bootstrap.jpg"],:titles => [],:texts => []) %>
@@ -45,19 +45,20 @@
 		<div class="col-md-4 col-md-offset-4">
 			<%= form_tag("/home/enviar") do %>
 			<%= text_field_tag("nombre","",:placeholder => "Tu nombre aquí",:class => "form-control") %>
-			<%= text_field_tag("nombre","",:placeholder => "Asunto",:class => "form-control") %>
-			<%= text_area_tag("nombre","",:placeholder => "Escribenos sobre la app que deseas o sobre tu interes en hacer parte de nuestra compañia",:class => "form-control",:size => "20x10") %>
+			<%= text_field_tag("asunto","",:placeholder => "Asunto",:class => "form-control") %>
+			<%= email_field_tag("email","",:placeholder => "tucorren@tupagina.com",:class => "form-control") %>
+			<%= text_area_tag("body","",:placeholder => "Escribenos sobre la app que deseas o sobre tu interes en hacer parte de nuestra compañia",:class => "form-control",:size => "20x10") %>
 			<%= submit_tag("Enviar",:class => "form-control btn btn-danger") %>
 			<% end %>
 		</div>
-	</div><br/><br/><br/><br/>
-<div class="row">
+	</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<div class="row">
 		<div class="text-center">
 			<%= link_to(image_tag("facebook.png",:size => "250x250"),"https://www.facebook.com/tuixcolombia") %>
 			<%= link_to(image_tag("twitter.png",:size => "250x250"),"https://twitter.com/tuixcolombia") %>
-			<%= link_to(image_tag("googleplus.png",:size => "250x250"),"https://plus.google.com/+JuanVizcainoRulz") %>
+			<%= link_to(image_tag("googleplus.png",:size => "250x250"),"https://plus.google.com/114561641603084783381") %>
 		</div>
-	</div>
+	</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </div>
 <!-- Animation scripts -->
 <script src="/js/tuix.js" type="text/javascript"></script>
