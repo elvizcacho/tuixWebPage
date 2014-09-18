@@ -13,7 +13,7 @@ module HomeHelper
 		html += '<div class="collapse navbar-collapse">'
 		html += '<ul id="barra" class="nav navbar-nav nav-color nav-text-color">'
 		for opcion in opciones
-			html += '<li><a href=/home/' +"#{opcion[0]}" + '>' + "#{opcion[1]}" + '</a></li>'
+			html += '<li><a href="#"' + '>' + "#{opcion[1]}" + '</a></li>'
 		end
 		html += '</ul>'
 		html += '</div>'

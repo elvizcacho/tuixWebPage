@@ -4,11 +4,11 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 col-md-offset-2">
-			<%= image_tag("logo_tuix.png",:class => "img-responsive") %>
+			<%= image_tag("logo_tuix.png",:class => "img-responsive",:id => "logo") %>
 		</div>
 	</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 </div>
-	<div class="row section2"><br/><br/><br/><br/><br/><br/>
+	<div id="part2" class="row section2"><br/><br/><br/><br/><br/><br/>
 		<div class="col-md-3 col-md-offset-1">
 			<div class="thumbnail no-border">
 				<%= image_tag("cloud.png",:class => "img-responsive",:size => "300x300") %>
@@ -37,8 +37,10 @@
 			</div>
 		</div>
 	</div>
+	<div id="part3">
 	<%= carrousel_tag(:images => ["ruby-on-rails.jpg","php.jpg","python.jpg","jquery.jpg","adobe.jpg","bootstrap.jpg"],:titles => [],:texts => []) %>
-<div class="section4">
+	</div>
+<div id="part4" class="section4">
 	<div class="container">
 		<h1 class="white-text-color">Contactenos</h1>
 	<br/><br/><br/>
@@ -55,7 +57,7 @@
 	</div>
 </div><br/><br/><br/><br/><br/><br/><br/>
 </div><br/><br/>
-<div class="container">
+<div id="part5" class="container">
 	<h1>Siguenos</h1><br/><br/>
 	<div class="row">
 		<div class="text-center">
