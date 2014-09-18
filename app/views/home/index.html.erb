@@ -36,13 +36,12 @@
 				</div>
 			</div>
 		</div>
-	</div><br/><br/><br/><br/>
-	<div class="container">
-		<h1>Nuestras tecnologias</h1>
 	</div>
 	<%= carrousel_tag(:images => ["ruby-on-rails.jpg","php.jpg","python.jpg","jquery.jpg","adobe.jpg","bootstrap.jpg"],:titles => [],:texts => []) %>
-<div class="container">
-	<h1>Contactenos</h1>
+<div class="section4">
+	<div class="container">
+		<h1 class="white-text-color">Contactenos</h1>
+	</div><br/><br/><br/>
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4">
 			<%= form_tag("/home/enviar") do %>
@@ -53,7 +52,10 @@
 			<%= submit_tag("Enviar",:class => "form-control btn btn-danger") %>
 			<% end %>
 		</div>
-	</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	</div><br/><br/><br/><br/><br/><br/><br/>
+</div><br/><br/>
+<div class="container">
+	<h1>Siguenos</h1><br/><br/>
 	<div class="row">
 		<div class="text-center">
 			<%= link_to(image_tag("facebook.png",:size => "250x250"),"https://www.facebook.com/tuixcolombia") %>
