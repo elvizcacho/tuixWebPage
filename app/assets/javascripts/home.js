@@ -39,5 +39,5 @@ function onClickEnlace5(e){
 
 function onClickEnlace6(e){
 	e.preventDefault();
-	
+	$('html, body').animate({ scrollTop:  $('#part6').offset().top - 50 }, 1000, 'easeInOutQuint');
 }
