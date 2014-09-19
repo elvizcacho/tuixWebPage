@@ -13,28 +13,28 @@ $( document ).ready(function() {
 
 function onClickEnlace1(e){
 	e.preventDefault();
-	$('html, body').animate({ scrollTop:  $('body').offset().top - 50 }, 'slow');
+	$('html, body').animate({ scrollTop:  $('body').offset().top - 50 }, 1000, 'easeInOutQuint');
 }
 
 function onClickEnlace2(e){
 	e.preventDefault();
-	$('html, body').animate({ scrollTop:  $('#part2').offset().top - 50 }, 'slow');
+	$('html, body').animate({ scrollTop:  $('#part2').offset().top - 50 }, 1000, 'easeInOutQuint');
 
 }
 
 function onClickEnlace3(e){
 	e.preventDefault();
-	$('html, body').animate({ scrollTop:  $('#part3').offset().top - 50 }, 'slow');
+	$('html, body').animate({ scrollTop:  $('#part3').offset().top - 50 }, 1000, 'easeInOutQuint');
 }
 
 function onClickEnlace4(e){
 	e.preventDefault();
-	$('html, body').animate({ scrollTop:  $('#part4').offset().top - 50 }, 'slow');
+	$('html, body').animate({ scrollTop:  $('#part4').offset().top - 50 }, 1000, 'easeInOutQuint');
 }
 
 function onClickEnlace5(e){
 	e.preventDefault();
-	$('html, body').animate({ scrollTop:  $('#part5').offset().top - 50 }, 'slow');
+	$('html, body').animate({ scrollTop:  $('#part5').offset().top - 50 }, 1000, 'easeInOutQuint');
 }
 
 function onClickEnlace6(e){
