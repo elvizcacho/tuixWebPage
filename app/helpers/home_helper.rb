@@ -8,7 +8,7 @@ module HomeHelper
 		html += '<span class="icon-bar"></span>'
 		html += '<span class="icon-bar"></span>'
 		html += '</button>'
-		html += '<a class="navbar-brand" href="#">' + image_tag("logo-nav-bar.png",:class => "logo-nav") + '</a>'
+		html += '<a id="link-img-logo"class="navbar-brand" href="#">' + image_tag("logo-nav-bar.png",:class => "logo-nav") + '</a>'
 		html += '</div>'
 		html += '<div class="collapse navbar-collapse">'
 		html += '<ul id="barra" class="nav navbar-nav nav-color nav-text-color">'

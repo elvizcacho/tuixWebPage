@@ -1,6 +1,6 @@
 
 $( document ).ready(function() {
- 	
+ 	$('#link-img-logo').click(onClickEnlace1);
    	$('#barra a:eq(0)').click(onClickEnlace1);
    	$('#barra a:eq(1)').click(onClickEnlace2);
    	$('#barra a:eq(2)').click(onClickEnlace3);
