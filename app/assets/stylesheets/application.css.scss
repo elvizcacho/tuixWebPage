@@ -15,7 +15,10 @@
  */
 
 @import "bootstrap";
-body {padding-top: 50px;}
+body {
+	padding-top: 50px;
+	overflow-x:hidden;
+}
 
 .no-border {
 	border: 0px;
