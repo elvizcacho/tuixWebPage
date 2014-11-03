@@ -3,6 +3,15 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+@media only screen 
+and (min-width : 1024px) {
+  .backalltime{
+    position: absolute;
+    top:0;
+    z-index:-1;
+    width: 100%;
+  }  
+}
 
 .backalltime{
   position: absolute;
