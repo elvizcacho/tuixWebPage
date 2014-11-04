@@ -12,10 +12,16 @@ $( document ).ready(function() {
 
 });
 
+var size = [window.width,window.height];
+
+$(window).resize(function(){
+    window.resizeTo(size[0],size[1]);
+});
+
 $(document).scroll(function(e){
+	$(document).scrollLeft(0);
 	var topi = $(document).scrollTop();
-	
-   	$('.backalltime').offset({ top: topi});
+	$('.backalltime').offset({ top: topi});
    	
 });
 
