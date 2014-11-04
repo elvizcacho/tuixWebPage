@@ -19,7 +19,10 @@ $(window).resize(function(){
 });
 
 $(document).scroll(function(e){
-	$(document).scrollLeft(0);
+	if ($(document).scrollLeft() > 100){
+		$(document).scrollLeft(0);	
+	}
+	
 	var topi = $(document).scrollTop();
 	$('.backalltime').offset({ top: topi});
    	
