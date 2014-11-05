@@ -35,7 +35,7 @@ class HomeController < ApplicationController
 
   def enviar
     @url = "#{request.protocol}#{request.host}:#{request.port}"
-    #Email.recepcion(params).deliver
+    Email.recepcion(params).deliver
   end
   
 end
