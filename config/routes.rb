@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'home/diseno_grafico'
   get 'home/contactenos'
   post 'home/enviar'
+  get 'home/enviar'
   match "/" => "home#index", :via => "get"
 
   # The priority is based upon order of creation: first created -> highest priority.

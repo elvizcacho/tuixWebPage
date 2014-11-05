@@ -1,6 +1,7 @@
 (function (lib, img, cjs) {
 
 var p; // shortcut to reference prototypes
+var url = window.location.origin;
 
 // library properties:
 lib.properties = {
@@ -9,8 +10,8 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"assets/img1_animation.png", id:"img1_animation"},
-		{src:"assets/img2_animation.png", id:"img2_animation"}
+		{src:url + "/images/img1_animation.png", id:"img1_animation"},
+		{src:url + "/images/img2_animation.png", id:"img2_animation"}
 	]
 };
 

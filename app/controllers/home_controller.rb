@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @url = "#{request.protocol}#{request.host}:#{request.port}"
   end
 
   def quienes_somos
@@ -33,7 +34,8 @@ class HomeController < ApplicationController
   end
 
   def enviar
-    Email.recepcion(params).deliver
+    @url = "#{request.protocol}#{request.host}:#{request.port}"
+    #Email.recepcion(params).deliver
   end
   
 end
