@@ -9,8 +9,8 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"images/img1_animation.png", id:"img1_animation"},
-		{src:"images/img2_animation.png", id:"img2_animation"}
+		{src:"assets/img1_animation.png", id:"img1_animation"},
+		{src:"assets/img2_animation.png", id:"img2_animation"}
 	]
 };
 
