@@ -12,7 +12,7 @@ class Email < ActionMailer::Base
     @asunto = parametros[:asunto]
     @email = parametros[:email]
     @body = parametros[:body]
-
+    #
     mail to: ["elvizcacho@gmail.com","tuixcolombia@gmail.com","juancamilo_g@hotmail.com","juancamilogaviriaacosta@gmail.com"], :subject => "¡#{parametros[:nombre]} quiere hacer contacto con Tuix!"
 
   end
