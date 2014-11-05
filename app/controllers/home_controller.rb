@@ -33,7 +33,7 @@ class HomeController < ApplicationController
   end
 
   def enviar
-    redirect_to("/home/index")
+    Email.recepcion(params).deliver
   end
   
 end
