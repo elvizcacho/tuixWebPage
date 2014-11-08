@@ -19,13 +19,9 @@ $(window).resize(function(){
 });
 
 $(document).scroll(function(e){
-	if ($(document).scrollLeft() > 100){
+	if ($(document).scrollLeft() > 50){
 		$(document).scrollLeft(0);	
 	}
-	
-	var topi = $(document).scrollTop();
-	$('.backalltime').offset({ top: topi});
-   	
 });
 
 function onClickEnlace1(e){
