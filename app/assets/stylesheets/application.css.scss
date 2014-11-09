@@ -27,18 +27,6 @@ body {
   	background-size: cover;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
-	body {
-		padding-top: 50px;
-		overflow-x:hidden;
-		background: image-url("background_ipad.jpg") no-repeat center center fixed; 
-  		-webkit-background-size: cover;
-  		-moz-background-size: cover;
-  		-o-background-size: cover;
-  		background-size: cover;
-	}
-}
-
 .no-border {
 	border: 0px;
 	background: rgba(0, 0, 0, .5);
