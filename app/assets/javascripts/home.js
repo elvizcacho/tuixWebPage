@@ -1,16 +1,15 @@
 
-$( document ).ready(function() {
- 	$('#link-img-logo').click(onClickEnlace1);
+var ready = function() {
+
+    $('#link-img-logo').click(onClickEnlace1);
    	$('#barra a:eq(0)').click(onClickEnlace1);
    	$('#barra a:eq(1)').click(onClickEnlace5);
    	$('#barra a:eq(2)').click(onClickEnlace6);
-   	//$('#barra a:eq(3)').click(onClickEnlace6);
-   	//$('#barra a:eq(4)').click(onClickEnlace5);
-   	//$('#barra a:eq(5)').click(onClickEnlace6);
-   	
-   	
+   	init();//Inicia la animacion del logo
+};
 
-});
+$(document).ready(ready);
+$(document).on('page:load', ready);
 
 var size = [window.width,window.height];
 

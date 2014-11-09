@@ -10,8 +10,12 @@
 </div>
 
 <div id="part2" class="row">
-	<div class="container">
+	<div class="col-md-5 col-md-offset-1">
 		<h1 class="white-text-color"><%= t('home.seccion1.titulo') %></h1>
+	</div>
+	<div class="col-md-2 col-md-offset-4">
+		<strong class="white-text-color">Idioma</strong>
+		<%= link_to(image_tag("usa_flag_icon.png"),'/en',method: :get) %> <%= link_to(image_tag("spain_flag_icon.gif"),'/es',method: :get) %>
 	</div>
 </div>
 	<div id="part3" class="row section2"><br/>
