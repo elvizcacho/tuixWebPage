@@ -6,6 +6,49 @@ var ready = function() {
    	$('#barra a:eq(1)').click(onClickEnlace5);
    	$('#barra a:eq(2)').click(onClickEnlace6);
    	init();//Inicia la animacion del logo
+   	$('#nombre').on('change invalid', function(e) {
+   		var lang = $('html').attr('lang');
+   		if(lang == 'es'){
+    		var textfield = e.target;
+    		textfield.setCustomValidity('');
+    	  	if (!textfield.validity.valid) {
+      			textfield.setCustomValidity('Por favor llene este campo.');  
+    		}	
+    	}
+    });
+
+    $('#asunto').on('change invalid', function(e) {
+   		var lang = $('html').attr('lang');
+   		if(lang == 'es'){
+    		var textfield = e.target;
+    		textfield.setCustomValidity('');
+    	  	if (!textfield.validity.valid) {
+      			textfield.setCustomValidity('Por favor llene este campo.');  
+    		}	
+    	}
+    });
+
+    $('#email').on('change invalid', function(e) {
+   		var lang = $('html').attr('lang');
+   		if(lang == 'es'){
+    		var textfield = e.target;
+    		textfield.setCustomValidity('');
+    	  	if (!textfield.validity.valid) {
+      			textfield.setCustomValidity('Por favor llene este campo con un email valido. ej: email@dominio.com');  
+    		}	
+    	}
+    });
+
+    $('#body').on('change invalid', function(e) {
+   		var lang = $('html').attr('lang');
+   		if(lang == 'es'){
+    		var textfield = e.target;
+    		textfield.setCustomValidity('');
+    	  	if (!textfield.validity.valid) {
+      			textfield.setCustomValidity('Por favor llene este campo.');  
+    		}	
+    	}
+    });
 };
 
 $(document).ready(ready);
