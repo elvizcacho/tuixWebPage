@@ -1,0 +1,31 @@
+
+es:
+  home:
+    titulo: "Tuix | Desarrollo de Software a la Medida"
+
+    seccion1:
+      menu: "¿Qué ofrecemos?"
+      titulo: "¡Haz tu proyecto con nosotros!"
+      tumbnail1:
+        titulo: "Aplicaciones Web"
+        contenido: "Utilizamos las últimas tecnologías y metodologías para entregarle una página que resaltará la imagen de su empresa, con una constante asesoría para entender perfectamente el concepto que usted desea transmitir a sus clientes."
+      tumbnail2:
+        titulo: "Aplicaciones Móviles"
+        contenido: "Hoy en día las personas utilizan un teléfono móvil para buscar casi cualquier cosa. Su empresa debe aprovechar esta tecnología. Nosotros le podemos mostramos como hacerlo."
+      tumbnail3:
+        titulo: "Diseño Grafico"
+        contenido: "Sabemos lo importante que es la imagen de su empresa. Por este motivo dedicamos una gran parte de nuestro trabajo al desarrollo de la imagen corporativa de esta."
+
+    seccion2:
+      menu: "Contáctenos"
+      titulo: "Contáctenos"
+      form:
+        nombre: "Tu nombre aquí"
+        asunto: "Asunto"
+        email: "tucorreo@tupagina.com"
+        body: "Escríbenos sobre la App que deseas desarrollar ó sobre tu interés en hacer parte de nuestra compañía."
+        submit: "Enviar"
+
+    seccion3:
+      menu: "Síguenos"
+      titulo: "Síguenos"

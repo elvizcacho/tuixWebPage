@@ -6,6 +6,11 @@ Rails.application.routes.draw do
   get 'home/diseno_grafico'
   get 'home/contactenos'
   post 'home/enviar'
+  scope "/:locale" do
+    resources :home
+  end
+
+  match ":locale" => "home#index", :via => "get"
   match "/" => "home#index", :via => "get"
 
   # The priority is based upon order of creation: first created -> highest priority.

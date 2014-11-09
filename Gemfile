@@ -47,3 +47,5 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.2.0.1'
 ruby "2.1.2"
 gem 'rails_12factor', group: :production
+#translate
+gem 'i18n'

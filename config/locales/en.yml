@@ -19,5 +19,34 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
+
 en:
-  hello: "Hello world"
+  home:
+    titulo: "Tuix | Custom Software Development" 
+
+    seccion1:
+      menu: "Our services"
+      titulo: "Do your project with us!"
+      tumbnail1:
+        titulo: "Web Applications"
+        contenido: "We use the last technologies and methodologies to develop a web page that will highlight the image of your company. Along with a constant consulting to understand perfectly the concept that you want to transmit to your customers."
+      tumbnail2:
+        titulo: "Mobile Applications"
+        contenido: "Nowadays, people use a mobile phone to search for anything. Your company must exploit this technology. We can show you how to do it."
+      tumbnail3:
+        titulo: "Graphic Design"
+        contenido: "We know how important is the image of your company. Because of this, we devote much of our work to develop the corporative design of this one."
+
+    seccion2:
+      menu: "Contact us"
+      titulo: "Contact us"
+      form:
+        nombre: "Your name"
+        asunto: "Subject"
+        email: "youremail@yourdomain.com"
+        body: "Write us about the app you want to develop or about your interest in being part of our company."
+        submit: "Send"
+
+    seccion3:
+      menu: "Follow us"
+      titulo: "Follow us"
