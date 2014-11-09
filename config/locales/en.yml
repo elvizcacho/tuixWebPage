@@ -24,6 +24,13 @@ en:
   home:
     titulo: "Tuix | Custom Software Development" 
 
+    meta:
+      title: "Tuix | Custom Software Development"
+      description: "Tuix is a company that develops custom software. Web applicacions, Mobile applications. We use the last technologies and the best practices to ensure the quality of your product."
+      og:
+        title: "Tuix | Custom Software Development"
+        description: "Develop your idea with us!, Web Applications, Mobile Applications, Graphic Design and much more."
+
     seccion1:
       menu: "Our services"
       titulo: "Do your project with us!"
@@ -50,3 +57,7 @@ en:
     seccion3:
       menu: "Follow us"
       titulo: "Follow us"
+  
+  email: 
+    view:
+      titulo: "One of our agents will contact you soon."

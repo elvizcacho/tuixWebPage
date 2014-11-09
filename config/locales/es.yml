@@ -1,7 +1,15 @@
 
 es:
+
   home:
+
     titulo: "Tuix | Desarrollo de Software a la Medida"
+    meta:
+      title: "Tuix | Desarrollo de Software a la Medida"
+      description: "Tuix es una empresa de desarrollo de software a la medida, que se especializa en el desarrollo de aplicaciones web y aplicaciones móviles, utilizando los más altos estándares de calidad y las mejores practicas."
+      og:
+        title: "Tuix | Desarrollo de Software a la Medida"
+        description: "¡Desarrolla tu idea con nosotros!, Aplicaciones Web, Aplicaciones Móviles, Diseño Gráfico y mucho más."
 
     seccion1:
       menu: "¿Qué ofrecemos?"
@@ -29,3 +37,7 @@ es:
     seccion3:
       menu: "Síguenos"
       titulo: "Síguenos"
+
+  email: 
+    view:
+      titulo: "Pronto alguno de nuestros agentes se contactará contigo"
