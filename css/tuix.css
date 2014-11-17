@@ -1,0 +1,73 @@
+body {
+  padding-top: 50px;
+  overflow-x:hidden;
+}
+
+.super{
+	transition:opacity 1s;
+	-moz-transition:opacity 1s;
+	-o-transition:opacity 1s;
+	-webkit-transition:opacity 1s;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.logo-nav{
+  position:relative;
+  top:-30%;
+}
+
+.logo-home{
+	position:relative;
+	left:10%;
+	width:50%;
+}
+
+.logom2-home{
+	position:relative;
+	right:-1200;
+	width:30%;
+	
+}
+
+.nav-color{
+   opacity:0.9;
+   background: linear-gradient(lleft, #C73149, #C83931);
+   background: -moz-linear-gradient(left, #C73149, #C83931);
+   background: -ms-linear-gradient(left, #C73149, #C83931);
+   background: -webkit-linear-gradient(left, #C73149, #C83931);
+   background: -o-linear-gradient(left, #C73149, #C83931);
+   background: linear-gradient(left, #C73149, #C83931);
+}
+
+
+.nav-text-color a{
+	color:#FFF !important;
+}
+
+.h1-text-color{
+	color:#FFF;
+}
+
+.fondo1{
+	position:absolute;
+	top:100%;
+	left:0%;
+	width:100%;
+	z-index:-1;
+}
+
+.front2{
+	width:100%;
+	z-index:2;
+}
+
+.fondo2{
+	position:absolute;
+	top:300%;
+	left:0%;
+	width:100%;
+	z-index:-1;
+}
