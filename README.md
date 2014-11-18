@@ -9,5 +9,5 @@ You can see the result here: http://tuix.co/
   - multilingual (English and Spanish).
   - Animations with createJS.
   - Responsive design (Bootstrap 3.0).
-  - Mandril as a mail provider.
+  - Mandril as transactional email service
   - Ruby
